@@ -4,61 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Carousel - simplest version</title>
-  <link rel="stylesheet" type="text/css" href="furniture.css">
-  <style type="text/css">
-    .carouselbox {
-      font-family: helvetica,sans-serif;
-      font-size: 14px;
-      width: 100px;
-      position: relative;
-      margin: 1em;
-      border: 1px solid #ccc;
-      box-shadow: 2px 2px 10px #ccc;
-      overflow: hidden;
-    }
-    .content {
-      margin: 0;
-      padding: 0;
-    }
-    .content li {
-      font-size: 100px;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      list-style: none;
-      text-align: center;
-      z-index: 2;
-    }
-    .active {
-      height: 130px;
-    }
-    .active li {
-      position: absolute;
-      top: 200px;
-    }
-    .active li.current {
-      top: 30px;
-    }
-    .buttons {
-      display: none;
-    }
-    .active .buttons {
-      display: block;
-      padding: 5px 0;
-      background: #eee;
-      text-align: center;
-      z-index: 10;
-      position: relative;
-    }
-    .carouselbox button {
-      border: none;
-      visibility: hidden;
-    }
-    .active button {
-      visibility: visible;
-    } 
-    
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 
 <body>
@@ -79,19 +26,6 @@
   </ol>
 </div>
 
-<nav>
-  <ul>
-    <li><a href="carousel-noscript.html">Plain HTML carousel structure</a></li>
-    <li><a href="carousel-css-only.html">Styled and ready carousel</a></li>
-    <li><strong>Simplest possible carousel</strong></li>
-    <li><a href="carousel-fancy.html">Fancier carousel</a></li>
-    <li><a href="carousel-progressive-enhancement.html">Capability testing</a></li>
-    <li><a href="carousel-pointer-events.html">CSS Pointer events fix</a></li>
-    <li><a href="carousel-images.html">Carousel with images</a></li>
-    <li><a href="carousel-allowing-presets.html">Carousel with HTML preset</a></li>
-    <li><a href="https://github.com/codepo8/simple-carousel">View Source on GitHub</a></li>
-  </ul>
-</nav>
 
 <script>
 
